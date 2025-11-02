@@ -46,11 +46,11 @@ export default function Gallery(){
             }} 
             />
             {/* Your Content Here */}
-            <div className="text-center font-semibold text-lg sm:text-3xl md:text-5xl sm:mt-6 sm:mb-5 bg-linear-to-tr from-secondary-color via-pink-600 to-purple-500 text-transparent bg-clip-text drop-shadow-pink-300 drop-shadow-lg">
-                COMPETITION GALLERY
+            <div className="text-center font-semibold text-lg sm:text-3xl md:text-5xl sm:mt-6 sm:mb-5 bg-linear-to-tr from-secondary-color via-pink-600 to-purple-500 text-transparent bg-clip-text drop-shadow-pink-300 drop-shadow-sm">
+                Competition Gallery
             </div>
-            <div className="text-center font-semibold text-xl mb-4 sm:text-4xl md:text-6xl sm:pb-10 bg-linear-to-tr from-secondary-color via-pink-600 to-purple-500 text-transparent bg-clip-text bg-size-[200%] drop-shadow-lg drop-shadow-secondary-color/70 animate-waterfall">
-                <span className="text-white">20/11</span> WEB DESIGN <span className="text-white">CONTEST</span>
+            <div className="text-center font-semibold text-xl mb-4 sm:text-4xl md:text-6xl sm:pb-10 bg-linear-to-tr from-pink-200 via-white to-pink-200 text-transparent bg-clip-text bg-size-[200%] drop-shadow-sm drop-shadow-secondary-color/70 animate-waterfall">
+                20/11 Web Design Contest
             </div>
             
             <div className="pb-20">
