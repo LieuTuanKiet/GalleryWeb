@@ -1,4 +1,18 @@
 @import "tailwindcss";
+@theme{
+  --color-primary-color: #1F67ED;
+  --color-secondary-color: #DB0259;
+  @keyframes waterfall {
+    to{
+      background-position: 200%;
+    }
+  }
+  --animate-waterfall: waterfall 5s ease-in-out infinite;
+}
+.slick-dots li.slick-active div {
+  opacity: 1 !important;
+  transform: scale(1.6);
+}
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

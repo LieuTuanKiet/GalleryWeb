@@ -1,8 +1,9 @@
-import topic from "../assets/background-20-11-1.jpg";
+import topic from "../assets/test.jpeg";
 export default function Introduce(){
     return(
-        <div>
-            <img src={topic} className="w-screen h-screen"/>
+        
+        <div className="w-screen sm:w-full">
+            <img src={topic} className="w-full sm:w-screen mx-auto"/>
         </div>
     )
 }
